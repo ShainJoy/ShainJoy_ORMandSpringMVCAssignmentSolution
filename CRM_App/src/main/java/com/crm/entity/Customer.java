@@ -25,6 +25,7 @@ public class Customer {
 	@Column(name="email")
 	private String email;
 	
+	// Constructors
 	public Customer() {
 		this.id = 0;
 	}
@@ -36,6 +37,7 @@ public class Customer {
 		this.email = email;
 	}
 	
+	// Getters and Setters
 	public int getId() {
 		return id;
 	}
@@ -60,10 +62,9 @@ public class Customer {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
 	@Override
 	public String toString() {
 		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
-	
-	
 }

@@ -20,16 +20,11 @@
 </head>
 
 <body>
-
 	<div class="container">
-
 		<h3>CUSTOMER RELATIONSHIP MANAGEMENT</h3>
 		<hr>
-
 		<p class="h4 mb-4">Save Customer</p>
-
 		<form action="/CRM_App/operations/save" method="POST">
-
 			<!-- Add hidden form field to handle update -->
 			<input type="hidden" name="id" value="${Customer.id}" />
 
@@ -51,21 +46,8 @@
 			<button type="submit" class="btn btn-info col-2">Save</button>
 
 		</form>
-
 		<hr>
 		<a href="/CRM_App/operations/list">Back to Customers List</a>
-
 	</div>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-

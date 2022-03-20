@@ -5,10 +5,6 @@
 	id="WebApp_ID" version="3.1">
 
 	<display-name>CRM_App</display-name>
-	<welcome-file-list>
-		<welcome-file>/WEB-INF/views/List-Customers.jsp</welcome-file>
-	</welcome-file-list>
-
 	<absolute-ordering />
 
 	<!-- Configure Spring MVC Dispatcher Servlet -->

@@ -19,12 +19,9 @@
 </head>
 
 <body>
-
 	<div class="container">
-
 		<h3>CUSTOMER RELATIONSHIP MANAGEMENT</h3>
 		<hr>
-
 		<div>
 			<a href="/CRM_App/operations/addCustomer"
 				class="btn btn-primary btn-sm mb-3"> Add Customer </a>
@@ -38,7 +35,6 @@
 					<th>Action</th>
 				</tr>
 			</thead>
-
 			<tbody>
 				<c:forEach items="${Customer}" var="customer">
 					<tr>
@@ -53,20 +49,12 @@
 							class="btn btn-danger btn-sm ml-2"
 							onclick="if (!(confirm('Are you sure you want to delete?'))) return false">
 								Delete </a>
-
 						</td>
-
 					</tr>
 				</c:forEach>
-
 			</tbody>
 		</table>
-
 		<hr>
 	</div>
-
 </body>
 </html>
-
-
-

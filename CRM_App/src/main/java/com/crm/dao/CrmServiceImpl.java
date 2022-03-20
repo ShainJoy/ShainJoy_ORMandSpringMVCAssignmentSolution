@@ -12,6 +12,11 @@ import org.springframework.stereotype.Repository;
 import com.crm.entity.Customer;
 import com.crm.service.CrmServices;
 
+/**
+ * This is the Repository class and handles all Data Access job
+ * 
+ * @author Shain Joy
+ */
 @Repository
 public class CrmServiceImpl implements CrmServices {
 
